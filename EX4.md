@@ -1,6 +1,7 @@
 # Ex. No: 4 Creating Procedures using PL/SQL
-
-### AIM: To create a procedure using PL/SQL.
+## Date: 25/09/23
+## AIM: 
+To create a procedure using PL/SQL.
 
 ### Steps:
 1. Create employee table with following attributes (empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
@@ -16,8 +17,8 @@ SQL> CREATE TABLE ep(
      empid NUMBER,
      empname VARCHAR(10),
      dept VARCHAR(10),
-     salary NUMBER
-    );
+     salary NUMBER
+    );
 CREATE OR REPLACE PROCEDURE emp_data AS
     BEGIN
     INSERT INTO ep(empid,empname,dept,salary)
@@ -31,13 +32,13 @@ CREATE OR REPLACE PROCEDURE emp_data AS
    DBMS_OUTPUT.PUT_LINE('EMPLOYEE ID:'||emp_rec.empid||',EMPLOYEE NAME:'|| emp_rec.empname||
    ',DEPARTMENT:'||emp_rec.dept||',SALARY:'||emp_rec.salary);
    END LOOP;
-   END;
-  /
+   END;
+  /
 ```
-
 ### Output:
-![WhatsApp Image 2023-09-26 at 23 54 26](https://github.com/ARUNKUMART9968/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/121215794/50848e70-e38e-44fe-84d2-7f6e92d05db9)
 
+![270758399-50848e70-e38e-44fe-84d2-7f6e92d05db9](https://github.com/22008539/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/118707617/eb854c26-0c45-41f1-b502-976afe7c3391)
 
 ### Result:
-THE PROGRAM HAS BEEN IMPLEMENTED SUCCESSFULLY
+
+THE PROGRAM HAS BEEN IMPLEMENTED SUCCESSFULLY...
